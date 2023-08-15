@@ -1,0 +1,31 @@
+{
+  "name": "fasting-tracker",
+  "version": "1.0.0",
+  "description": "A fasting tracker CLI tool made with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goneHaywire/fasting-tracker.git"
+  },
+  "keywords": [
+    "fasting",
+    "tracker",
+    "cli",
+    "node"
+  ],
+  "author": "goneHaywire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goneHaywire/fasting-tracker/issues"
+  },
+  "homepage": "https://github.com/goneHaywire/fasting-tracker#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fp-ts": "^2.16.1",
+    "luxon": "^3.4.0",
+    "sqlite3": "^5.1.6"
+  }
+}
